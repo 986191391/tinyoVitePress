@@ -1,0 +1,16 @@
+{
+  "name": "tinyodocs",
+  "version": "1.0.0",
+  "description": "tinyo docs",
+  "main": "index.js",
+  "author": "tinyo",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.7"
+  },
+  "scripts": {
+    "dd": "vitepress dev docs",
+    "db": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
