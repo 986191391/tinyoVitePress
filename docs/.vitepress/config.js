@@ -164,6 +164,8 @@ export default defineConfig({
             { text: '防抖与节流', link: '/article/utils/debounceThrottle' },
             { text: '判断元素是否出现在视口', link: '/article/utils/isInViewPort' },
             { text: '简易 Promise 实现', link: '/article/utils/mypromise' },
+            { text: '手写 JS深拷贝函数', link: '/article/javascript/deepclone' },
+            { text: '实现链式调用函数', link: '/article/utils/chain' },
           ]
         },
         {
