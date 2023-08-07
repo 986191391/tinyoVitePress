@@ -1,10 +1,10 @@
-# Life
+# 生命的旅程
 
 
-记录值得纪念的每一天
+值得纪念的每一天
 
 ## 五月天，我们来啦！
-
+2023年7月9日，五月天深圳大运体育馆，我来啦！
 <div style="display: grid; grid-template-columns: repeat(2, 49%); gap: 10px">
   <img src="../assets/life/wuyuetian/1.webp" alt="" />
   <img src="../assets/life/wuyuetian/2.webp" alt="" />
@@ -109,10 +109,11 @@
 
 ## 2023年过年
 
-右键视频，点击显示所有控件就可以播放视频了哦。
+<!-- 右键视频，点击显示所有控件就可以播放视频了哦。 -->
 
-感觉是我从小到大，过的最开心的一次年了。现在长大了，凡事多了几分感叹，千万要珍惜这种可以忘记烦恼的过程，好好享受生活！
+感觉是我从小到大，过的最开心的一次年了。<br>
+现在长大了，凡事多了几分感叹，千万要珍惜这种可以忘记烦恼的过程，好好享受生活！
 
 <div style="width: 100%" >
-  <video style="width: 100%" width="100%" data-v-70787c70="" src="http://43.139.113.7:81/media/happy.mp4" id="video-home" data-object-fit="" playsinline="" x5-playsinline="" webkit-playsinline="true" x5-video-player-type="h5" preload="auto"></video>
+  <video style="width: 100%" width="100%" controls src="http://43.139.113.7:81/media/happy.mp4" id="video-home" data-object-fit="" playsinline="" x5-playsinline="" webkit-playsinline="true" x5-video-player-type="h5" preload="auto"></video>
 </div>

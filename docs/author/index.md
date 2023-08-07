@@ -119,6 +119,7 @@ NBA免费直播 - [点击跳转](https://ss.hbzb66.cc/index.php?g=&m=index&a=ind
 
 WeChat: yzfcoo1<br>
 QQ: 986191391<br>
+Github: 986191391<br>
 CSDN: 2e4ong
 
 <img src="../assets/tinyo.webp" alt="" />

@@ -20,8 +20,8 @@ export default defineConfig({
 		sidebar: {
       '/author/': [
         {
-          text: '记录',
           items: [ 
+            { text: '关于我', link: '/author/' },
             { text: '生活足迹', link: '/author/life' },
             { text: '工作成长', link: '/author/job' },
           ]
