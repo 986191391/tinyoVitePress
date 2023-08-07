@@ -68,11 +68,11 @@
 
 ## 归类
 
-大致分为HTML、CSS、JavaScript、Vue、React、网络、浏览器、NodeJS、前端其他、代码学习模块。
+大致分为HTML、CSS、JavaScript、Vue、网络等模块。
 
-其中 JavaScript 、Vue 及 网络模块为重点板块，学习模块为涉及算法知识的内容。这几个模块的内容在实战面试中经常被提问，值得我们研究学习。
+其中 JavaScript 、Vue 及 网络模块为重点板块，学习模块涉及算法知识的内容。这几个模块的内容在实战面试中经常被提问，值得我们研究学习。
 
-花里胡哨模块中，记录了用前端手段实现的小工具，在工作生活中都能够发挥大用处！
+“花里胡哨”模块中，记录了用前端手段实现的小工具，在工作生活中都能够发挥大用处！
 
 ```ts
 // DO SOMETHING
@@ -82,6 +82,7 @@ private watchMood(mood: string): void {
   return this.doWhatYouFeelLike();
 }
 ```
+
 
 <!-- <div style="textAlign: center;display: flex; flexDirection: column; justifyContent: center;alignItems: center">
   <div style="padding: 40px 0; color: #e6e6e6;fontSize: 102px;fontFamily: 'Luckiest Guy'; letterSpacing: 5px; fontWeight: 300;textShadow: 1px -1px #fff, -1px 1px #999, -5px 5px 5px #808080;">

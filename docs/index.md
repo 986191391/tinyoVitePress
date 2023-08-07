@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Tinyo Docs
   text: Play & Learn
-  tagline: 积累知识的站点，不仅仅是前端；学习的过程很漫长，慢慢的你会发现，知识是永远学不完的...
+  tagline: 积累知识的站点，不仅仅是前端；学习的过程很漫长，慢慢的会发现，没有尽头...
   image:
     src: ../assets/logo.png
     alt: logo
@@ -20,10 +20,10 @@ hero:
     #   link: https://github.com/vuejs/vitepress
 features:
   - icon: 📝
-    title: Focus on Documents
+    title: VitePress = Document
     details: 知识就是力量，知识就是金钱！持续更新中...
   - icon: 🏡
-    title: My Personal Blog
+    title: Vue3 + TS = Blog
     details: 高低也得弄一个帅气的博客，知识就是不断借鉴、吸收的过程。
   - icon: 🌈
     title: Official Accounts
