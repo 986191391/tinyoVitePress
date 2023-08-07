@@ -84,7 +84,7 @@
 codefun官方网站 - [点击跳转](https://www.code.fun)<br>
 tinyo个人网站 - [点击跳转](http://43.139.113.7:81/)<br>
 tinyo个人文档 - [点击跳转](http://43.139.113.7:89/article/)<br>
-微信小程序ios - **yzfcool**<br>
+微信小程序(ios) - **yzfcool**<br>
 个人公众号 - **不要只会想和说**
 
 ## 常用网站
@@ -94,6 +94,8 @@ VuePress - [点击跳转](http://caibaojian.com/vuepress/)<br>
 
 Bing - [点击跳转](https://cn.bing.com/?FORM=BEHPTB)<br>
 Github - [点击跳转](https://github.com/)<br>
+ES6入门教程(阮一峰) - [点击跳转](https://es6.ruanyifeng.com/)<br>
+GTP OPENAI - [点击跳转](https://chat.openai.com/)<br>
 TinyPNG - [点击跳转](https://tinypng.com/)<br>
 Ant Design Vue组件库 - [Ant Design Vue](https://www.antdv.com/components/icon-cn)<br>
 Ant Design React组件库 - [Ant Design React](https://4x.ant.design/components/overview-cn/)<br>
@@ -101,7 +103,6 @@ Ant Design Mobile组件库 - [Ant Design Mobile](https://mobile.ant.design/zh/gu
 Vant UI组件库 - [Vant UI](https://vant-contrib.gitee.io/vant/#/zh-CN)<br>
 有道词典翻译 - [点击跳转](https://fanyi.youdao.com/index.html#/)<br>
 微信公众平台 - [点击跳转](https://mp.weixin.qq.com/)<br>
-GTP OPENAI - [点击跳转](https://chat.openai.com/)<br>
 GTP 国内免费站点 - [点击跳转](https://chat.wuguokai.cn/)<br>
 免费第三方字体库站点 - [点击跳转](https://www.100font.com/index-2.html)<br>
 
