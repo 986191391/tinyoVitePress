@@ -1,17 +1,9 @@
 import { defineConfig } from 'vitepress';
 
-// module.exports = {
-//   title: 'Tinyo VitePress',
-//   lang: 'zh-CN',
-//   description: 'Just playing around',
-//   base: '/',
-// }
-
-
 export default defineConfig({
   title: 'Tinyo Docs',
   lang: 'zh-CN',
-  description: 'Just playing around',
+  description: 'tinyo docs',
   base: '/',
   head: [
     [
@@ -21,9 +13,9 @@ export default defineConfig({
   themeConfig: {
     logo: '../assets/logo.png',
     nav: [
-      { text: 'Document', link: '/article/' },
-      { text: 'Author', link: '/author/' },
-      // { text: 'Docs', link: '/growth/' },
+      { text: '首页', link: '/' },
+      { text: '文档', link: '/article/' },
+      { text: '关于', link: '/author/' },
     ],
 		sidebar: {
       '/author/': [
@@ -68,6 +60,7 @@ export default defineConfig({
             { text: 'ES7 新增', link: '/article/javascript/es7' },
             { text: 'e.target 和 e.currentTarget 的区别', link: '/article/javascript/etarget' },
             { text: '正则表达式', link: '/article/javascript/regExp' },
+            { text: '普通函数与箭头函数的区别', link: '/article/javascript/function' },
             { text: 'JS 笔试题', link: '/article/javascript/jstopic' }
           ]
         },

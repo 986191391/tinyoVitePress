@@ -114,5 +114,5 @@
 感觉是我从小到大，过的最开心的一次年了。现在长大了，凡事多了几分感叹，千万要珍惜这种可以忘记烦恼的过程，好好享受生活！
 
 <div style="width: 100%" >
-  <video width="100%" data-v-70787c70="" src="http://43.139.113.7:81/media/happy.mp4" id="video-home" data-object-fit="" playsinline="" x5-playsinline="" webkit-playsinline="true" x5-video-player-type="h5" preload="auto" style=""></video>
+  <video style="width: 100%" width="100%" data-v-70787c70="" src="http://43.139.113.7:81/media/happy.mp4" id="video-home" data-object-fit="" playsinline="" x5-playsinline="" webkit-playsinline="true" x5-video-player-type="h5" preload="auto"></video>
 </div>

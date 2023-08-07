@@ -23,12 +23,11 @@
 
 ## undefined 和 null 的区别
 
-[tinyo docs - JS类型比较](http://43.139.113.7:89/article/jstype.html)
+- undefined表示没有值
+- null表示无对象
 
-可以将两者分别这样理解：<br>
-undefined: 没有定义<br>
-null: 定义了没有给值
-```javascript
+首先从语意上它们就存在差别。因为null表示无对象，所以typeof null 等于object。造成这样的原因也是设计上的缺陷。
+```js
 undefined == null // true
 undefined === null //false
 typeof undefined // 'undefined'

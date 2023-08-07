@@ -176,3 +176,58 @@ new new Foo().getName()
 
 正常模式下，call输出undefined，apply输出18 19。<br>
 严格模式下，call会报错。
+
+
+## 自执行函数问题
+[下面的代码打印什么内容，为什么？](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/48)
+
+```js
+var b = 10;
+(function b(){
+    b = 20;
+    console.log(b); 
+})();
+
+```
+重点是自执行函数内的变量不能够重新赋值。
+```js
+var b = 10;
+(function b() {
+   // 内部作用域，会先去查找是有已有变量b的声明，有就直接赋值20，确实有了呀。发现了具名函数 function b(){}，拿此b做赋值；
+   // IIFE的函数无法进行赋值（内部机制，类似const定义的常量），所以无效。
+   //（这里说的“内部机制”，想搞清楚，需要去查阅一些资料，弄明白IIFE在JS引擎的工作方式，堆栈存储IIFE的方式等）
+    b = 20;
+    console.log(b); // [Function b]
+    console.log(window.b); // 10，不是20
+})();
+```
+
+
+理解了以上的点后来做下第二题：
+```js
+var a = 10;
+(function () {
+    console.log(a)
+    a = 5
+    console.log(window.a)
+    var a = 20;
+    console.log(a)
+})()
+```
+
+## 连续赋值问题
+
+```js
+var a = {n: 1};
+var b = a;
+a.x = a = {n: 2};
+
+console.log(a.x) 	
+console.log(b.x)
+```
+
+定义了a变量指向`{n: 1}`区域，后称为y区域。定义 b 等于 a，所以 b 也指向y区域。
+
+连等的执行如下：a.x 等于 `a = {n: 2}`执行后返回的结果，也就是在y区域下定义了一个x变量等于`a = {n: 2}`的执行结果。`a = {n: 2}`执行的结果就是将a指向的新的区域，称之为z区域，返回结果为z区域。
+
+最后a指向了z区域，即`{n: 2}`。b还是指向y区域，即 `{n: 1, x: z区域}`
