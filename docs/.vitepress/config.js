@@ -61,6 +61,7 @@ export default defineConfig({
             { text: 'e.target 和 e.currentTarget 的区别', link: '/article/javascript/etarget' },
             { text: '正则表达式', link: '/article/javascript/regExp' },
             { text: '普通函数与箭头函数的区别', link: '/article/javascript/function' },
+            { text: '为什么普通 for 循环的性能远远高于 forEach 的性能', link: '/article/javascript/forLoop' },
             { text: 'JS 笔试题', link: '/article/javascript/jstopic' }
           ]
         },

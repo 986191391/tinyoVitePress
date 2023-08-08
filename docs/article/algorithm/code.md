@@ -123,3 +123,39 @@ function huiwen(str) {
   }
 }
 ```
+
+
+<!-- ## 请实现一个 add 函数，满足以下功能。
+```js
+add(1); 			// 1
+add(1)(2);  	// 3
+add(1)(2)(3)；// 6
+add(1)(2, 3); // 6
+add(1, 2)(3); // 6
+add(1, 2, 3); // 6
+```
+ -->
+
+
+## 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
+
+
+给定 nums = [2, 7, 11, 15], target = 9
+
+因为 nums[0] + nums[1] = 2 + 7 = 9
+所以返回 [0, 1]
+
+```js
+function getIndex(arr, target) {
+  const record = new Map();
+  for (let i = 0; i < arr.length; i++) {
+    let needVal = target - arr[i];
+    if (record.has(needVal)) return [record.get(needVal), i]
+    record.set(arr[i], i);
+  }
+  return false;
+}
+
+console.log(getIndex([2, 7, 11, 15], 9))
+```
+

@@ -28,7 +28,7 @@ features:
     title: Github - tinyo
     details: GitHub is where over 100 million developers shape the future of software, together.
     link: https://github.com/986191391
-  - icon: <img src="../assets/others/csdnicon.png" alt="" />
+  - icon: <img src="../assets/csdnicon.png" alt="" />
     title: CSDN - 2e4ong
     details: CSDN是全球知名中文IT技术交流平台
     link: https://blog.csdn.net/GonTinyBlack
