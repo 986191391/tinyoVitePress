@@ -173,7 +173,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '花里胡哨',
+          text: '小工具',
           items: [
             { text: '添加书签脚本，点击修改网页内容！', link: '/article/flower/bookmarks' },
             { text: '文档下载要花钱？教你一招！', link: '/article/flower/printWeb' },
