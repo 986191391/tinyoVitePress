@@ -153,6 +153,7 @@ export default defineConfig({
           text: '前端',
           items: [
             { text: '性能优化', link: '/article/front/webOptimize' },
+            { text: '图片优化', link: '/article/front/optimizeImage' },
             { text: '管理后台权限控制', link: '/article/front/permission' },
             { text: '懒加载', link: '/article/front/lazyload' },
             { text: '响应式布局', link: '/article/front/reactive' },
