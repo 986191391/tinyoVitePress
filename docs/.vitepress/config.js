@@ -12,6 +12,27 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '../assets/logo.png',
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索',
+            buttonAriaLabel: '搜索'
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            displayDetails: '展示部分详情',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭'
+            }
+          }
+        }
+      }
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/article/' },
