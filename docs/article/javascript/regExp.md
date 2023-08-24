@@ -12,8 +12,8 @@
 | + | <div style="textAlign: left;">匹配前面一个表达式 1 次或者多次。等价于 {1,}。 <br> 例如，/a+/ 会匹配 "candy" 中的 'a' 和 "caaaaaaandy" 中所有的 'a'，但是在 "cndy" 中不会匹配任何内容。</div>  |
 | ? | <div style="textAlign: left;">匹配前面一个表达式 0 次或者 1 次。等价于 {0,1}。 <br> 例如，/e?le?/ 匹配 "angel" 中的 'el'、"angle" 中的 'le' 以及 "oslo' 中的 'l'。</div>  |
 | x\|y | <div style="textAlign: left;">匹配‘x’或者‘y’。 <br> 例如，/green\|red/匹配“green apple”中的‘green’和“red apple”中的‘red’</div>  |
-| {n} | <div style="textAlign: left;">n 是一个正整数，匹配了前面一个字符刚好出现了 n 次。 <br> 比如， /a{2}/ 不会匹配“candy”中的'a',但是会匹配“caandy”中所有的 a，以及“caaandy”中的前两个'a'。</div>  |
-| {n,m} | <div style="textAlign: left;">n 和 m 都是整数。匹配前面的字符至少 n 次，最多 m 次。如果 n 或者 m 的值是 0，这个值被忽略。 <br> 例如，/a{1, 3}/ 并不匹配“cndy”中的任意字符，匹配“candy”中的 a，匹配“caandy”中的前两个 a，也匹配“caaaaaaandy”中的前三个 a。注意，当匹配”caaaaaaandy“时，匹配的值是“aaa”，即使原始的字符串中有更多的 a。 </div> |
+| \{n\} | <div style="textAlign: left;">n 是一个正整数，匹配了前面一个字符刚好出现了 n 次。 <br> 比如， /a{2}/ 不会匹配“candy”中的'a',但是会匹配“caandy”中所有的 a，以及“caaandy”中的前两个'a'。</div>  |
+| \{n,m\} | <div style="textAlign: left;">n 和 m 都是整数。匹配前面的字符至少 n 次，最多 m 次。如果 n 或者 m 的值是 0，这个值被忽略。 <br> 例如，/a{1, 3}/ 并不匹配“cndy”中的任意字符，匹配“candy”中的 a，匹配“caandy”中的前两个 a，也匹配“caaaaaaandy”中的前三个 a。注意，当匹配”caaaaaaandy“时，匹配的值是“aaa”，即使原始的字符串中有更多的 a。 </div> |
 | \b | <div style="textAlign: left;">匹配一个词的边界。一个词的边界就是一个词不被另外一个“字”字符跟随的位置或者前面跟其他“字”字符的位置，例如在字母和空格之间。注意，匹配中不包括匹配的字边界。换句话说，一个匹配的词的边界的内容的长度是 0。<br>使用"moon"举例：<br>/\bm/匹配“moon”中的‘m’；<br>/oo\b/并不匹配"moon"中的'oo'，因为'oo'被一个“字”字符'n'紧跟着。<br>/oon\b/匹配"moon"中的'oon'，因为'oon'是这个字符串的结束部分。这样他没有被一个“字”字符紧跟着。</div> |
 | \d | <div style="textAlign: left;">匹配一个数字。等价于 [0-9]。<br> 例如， /\d/ 或者 /[0-9]/ 匹配"B2 is the suite number."中的'2'。</div> |
 | \w | <div style="textAlign: left;">匹配一个单字字符（字母、数字或者下划线）。等价于 [A-Za-z0-9_]。<br>例如，/\w/ 匹配 "apple," 中的 'a'，"$5.28,"中的 '5' 和 "3D." 中的 '3'。</div> |

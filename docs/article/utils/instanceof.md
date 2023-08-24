@@ -6,12 +6,23 @@
 当使用 instanceof 判断一个对象实例的构造函数时，只要是在实例的原型链上的构造函数，instanceof 都返回true
 
 ```js
-function instanceof(left, right) {
-  left = left.__proto__
+function instanceof (left, right) {
+  left = left.__proto__;
   while(true) {
     if (left === undefined || left === null) return false;
     if (left === right.prototype) return true;
-    left = left.__proto__
+    left = left.__proto__;
   }
+}
+```
+或者
+```js
+function instanceof (left, right) {
+  left = left.__proto__;
+  while(left) {
+    if (left === right.prototype) return true;
+    left = left.__proto__;
+  }
+  return false;
 }
 ```

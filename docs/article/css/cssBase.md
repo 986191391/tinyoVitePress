@@ -4,8 +4,23 @@
 ## 水平居中的方法
 [codepen例子](https://codepen.io/986191391/pen/oNYEzxd)
 1. margin: 0 auto;
+
+<div style="width: 100%; border: 1px solid #000;">
+    <div style="width: 100px; margin: 0 auto; border: 1px solid red;">居中</div>
+</div>
+
 2. display: flex; justify-content: center;
+
+<div style="width: 100%; border: 1px solid #000; display: flex; justify-content: center;">
+    <div style="width: 100px; border: 1px solid red;">居中</div>
+</div>
+
 3. position: absolute;
+
+<div style="width: 100%; border: 1px solid #000; position: relative;">
+    <div style="width: 200px; border: 1px solid red; position: absolute; top: 0; left: calc(50% - 100px);">居中(脱离文档流)</div>
+</div>
+
 4. transform: translateX();
 
 
