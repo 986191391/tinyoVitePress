@@ -210,6 +210,7 @@ export default defineConfig({
             { text: 'fabric库使用记录', link: '/article/growth/fabric' },
             { text: 'NodeJS服务器搭建', link: '/article/growth/buildnodejsserver' },
             { text: '本地接入宝塔部署的MySQL', link: '/article/growth/nodejsmysql' },
+            { text: '笔面经', link: '/article/growth/realExamination' },
           ]
         }
       ],
