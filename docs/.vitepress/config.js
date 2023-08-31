@@ -120,6 +120,7 @@ export default defineConfig({
             { text: '生命周期', link: '/article/react/lifeCycle' },
             { text: 'React 组件通信', link: '/article/react/communication' },
             { text: 'React hooks', link: '/article/react/hooks' },
+            { text: '为什么需要hooks', link: '/article/react/whyHooks' },
             { text: 'GPT 面试题', link: '/article/react/interview' },
           ]
         },
