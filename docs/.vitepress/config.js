@@ -153,6 +153,7 @@ export default defineConfig({
         {
           text: '前端',
           items: [
+            { text: '如何理解前端组件化、模块化、工程化', link: '/article/front/gather' },
             { text: '性能优化', link: '/article/front/webOptimize' },
             { text: '图片优化', link: '/article/front/optimizeImage' },
             { text: '管理后台权限控制', link: '/article/front/permission' },
