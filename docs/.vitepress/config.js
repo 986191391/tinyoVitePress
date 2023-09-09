@@ -52,6 +52,7 @@ export default defineConfig({
         {
           text: 'HTMl',
           items: [
+            { text: 'HTML5 新特性', link: '/article/html/html5' },
             { text: 'DOCTYPE 和 meta 标签', link: '/article/html/docmeta' },
           ]
         },
