@@ -60,6 +60,7 @@ export default defineConfig({
           text: 'CSS',
           items: [
             { text: 'CSS基本知识', link: '/article/css/cssBase' },
+            { text: 'CSS3 新特性', link: '/article/css/css3' },
             { text: '坑爹的CSS', link: '/article/css/cssFun' },
           ]
         },
