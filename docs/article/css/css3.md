@@ -5,7 +5,7 @@
 ## 选择器
 
 `CSS3`中新增了一些选择器，主要为如下图所示：
-<img src="../../assets/css/css3selection.awebp" alt="" />
+<img src="../../assets/css/css3selection.webp" alt="" />
 
 ## 布局属性
 
