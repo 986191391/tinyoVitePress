@@ -123,6 +123,7 @@ export default defineConfig({
             { text: 'React 组件通信', link: '/article/react/communication' },
             { text: 'React hooks', link: '/article/react/hooks' },
             { text: '为什么需要hooks', link: '/article/react/whyHooks' },
+            { text: '函数式组件和类组件的区别', link: '/article/react/diffclass' },
             { text: 'GPT 面试题', link: '/article/react/interview' },
           ]
         },

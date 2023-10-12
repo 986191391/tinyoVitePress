@@ -115,6 +115,11 @@ Libvio影视 - [点击跳转](https://www.libvio.fun/)<br>
 NBA免费直播 - [点击跳转](https://ss.hbzb66.cc/index.php?g=&m=index&a=index&cid=h)<br>
 
 
+## 免费音乐
+
+爱好歌 - [点击跳转](https://www.ihaoge.net/)<br>
+歌曲宝 - [点击跳转](https://www.gequbao.com/)<br>
+
 ## 联系我
 
 WeChat: yzfcoo1<br>
