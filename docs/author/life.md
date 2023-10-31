@@ -1,7 +1,31 @@
 # 生命的旅程
 
 
-值得纪念的每一天
+值得纪念的每一天，未完待续...
+
+## handmade 炒股机
+2000大米不到帮我爹配了个炒股机。<br>
+虽然还能更好，但是已经很满意了！祝我爹股市顺顺利利！
+<div style="display: grid; grid-template-columns: repeat(2, 49%); gap: 10px; align-items: center;">
+  <img src="../assets/life/computer/2023102901.webp" alt="" style="border: 1px solid #ddd" />
+  <img src="../assets/life/computer/2023102902.webp" alt="" />
+  <img src="../assets/life/computer/2023102903.webp" alt="" style="border: 1px solid #ddd" />
+  <img src="../assets/life/computer/2023102904.webp" alt="" style="border: 1px solid #ddd" />
+</div>
+
+## 提车咯~小电驴！
+2023年10月10日，完美的一天!<br>
+等我哪天把这个贴纸撕了来个变装嘿嘿。
+
+<img src="../assets/life/20231010.webp" alt="" />
+
+
+## 盖盖birthday
+2023年8月15日，注定是怂火锅社死的一天!
+
+<img src="../assets/life/2023gaibirthday/20230815.webp" alt="" />
+<img src="../assets/life/2023gaibirthday/202308152.webp" alt="" />
+
 
 ## 五月天，我们来啦！
 2023年7月9日，五月天深圳大运体育馆，我来啦！
@@ -117,3 +141,5 @@
 <div style="width: 100%" >
   <video style="width: 100%" width="100%" controls src="http://43.139.113.7:81/media/happy.mp4" id="video-home" data-object-fit="" playsinline="" x5-playsinline="" webkit-playsinline="true" x5-video-player-type="h5" preload="auto"></video>
 </div>
+
+## -----2023------
