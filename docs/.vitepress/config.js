@@ -77,6 +77,7 @@ export default defineConfig({
             { text: '原型和原型链', link: '/article/javascript/prototype' },
             { text: 'JS 继承', link: '/article/javascript/inherit' },
             { text: 'JS 异步和事件循环', link: '/article/javascript/jsAsyncEventloop' },
+            { text: 'script标签的defer和async属性', link: '/article/javascript/scriptDeferAsync' },
             { text: '深拷贝', link: '/article/javascript/deepclone' },
             { text: 'JS 定时器可以精准计时吗', link: '/article/javascript/jsTimeout' },
             { text: 'ES6 Map 和 Object 的区别', link: '/article/javascript/mapObject' },
