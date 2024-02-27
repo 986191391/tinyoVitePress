@@ -43,8 +43,9 @@ export default defineConfig({
         {
           items: [ 
             { text: '关于我', link: '/author/' },
-            { text: '生活足迹', link: '/author/life' },
-            { text: '工作成长', link: '/author/job' },
+            { text: '2024', link: '/author/2024' },
+            { text: '2023', link: '/author/2023' },
+            { text: '职业生涯', link: '/author/job' },
           ]
         }
       ],
