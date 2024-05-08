@@ -45,6 +45,7 @@ export default defineConfig({
             { text: '关于我', link: '/author/' },
             { text: '2024', link: '/author/2024' },
             { text: '2023', link: '/author/2023' },
+            { text: '菜谱', link: '/author/menu' },
             { text: '职业生涯', link: '/author/job' },
           ]
         }
